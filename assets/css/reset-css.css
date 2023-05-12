@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "students";
+    src: url(../fontes/the_students_teacher/TheStudentsTeacher-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FDFFFC;
+    font-family: "students";
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}

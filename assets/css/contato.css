@@ -1,0 +1,75 @@
+.formulario {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.box-form{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+    padding: 10px 45px; 
+    background: #235789; 
+    width: 500px; 
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px; 
+} 
+
+form { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    width: 100%; 
+} 
+
+form h2 { 
+    color: #fff; 
+    font-size: 2.5rem; 
+    margin: 2rem ; 
+} 
+
+form p { 
+    color: #fff; 
+    font-size: 20px; 
+    margin-bottom: 10px; 
+} 
+ 
+form input[type="text"], 
+form input[type="number"], 
+form input[type="email"] { 
+    padding: 15px; 
+    outline: none; 
+    border: 2px solid #235789; 
+    border-radius: 8px; 
+    margin-bottom: 20px; 
+    font-size: 16px; 
+    transition: border-color 0.3s; 
+    width: 100%; 
+} 
+ 
+form input[type="text"]:focus, 
+form input[type="number"]:focus, 
+form input[type="email"]:focus { 
+    border-color: #193b5d; 
+} 
+
+#contato { 
+    background-color: #235789; 
+    color: #fff; 
+    border: none; 
+    padding: 15px 30px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-left: 65px; 
+    transition: background-color 0.3s ease; 
+} 
+
+#contato:hover { 
+    background-color: #04213c; 
+}

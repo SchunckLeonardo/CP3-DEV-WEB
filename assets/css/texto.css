@@ -1,0 +1,29 @@
+.texto {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-texto {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F1D302;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.box-texto h2 {
+    color: #FDFFFC;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.box-texto p {
+    text-align: justify;
+    font-size: 20px;
+}
